@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostaza</title>
+    <style>
+        #menu {
+            background-color: orange;
+        }
+
+        #order-form {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Mostaza_company_logo.png/250px-Mostaza_company_logo.png"
+            alt="Mostaza Restaurant Logo" id="header-img">
+        <h1>Mostaza</h1>
+        <nav>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#order-form">Place Your Order</a></li>
+        </nav>
+    </header>
+
+    <menu>
+        <section id="menu">
+            <h2>Menu</h2>
+            <br>
+            <hr><br>
+            <article>
+                <h3>Pizza</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/250px-Pizza-3007395.jpg"
+                    alt="Pizza">
+                <p>Delicious pizza with a variety of toppings.</p>
+                <p><i>Price: $12.99</i></p>
+            </article>
+            <br>
+            <hr><br>
+            <article>
+                <h3>Burger</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/250px-RedDot_Burger.jpg"
+                    alt="Burger">
+                <p>Juicy burger with fresh ingredients.</p>
+                <p><i>Price: $8.99</i></p>
+            </article>
+            <br>
+            <hr><br>
+            <article>
+                <h3>Hot Dog</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Hot_dog_with_mustard.png/250px-Hot_dog_with_mustard.png"
+                    alt="Hot Dog">
+                <p>Classic hot dog with mustard and relish.</p>
+                <p><i>Price: $5.99</i></p>
+            </article>
+            <br>
+            <hr><br>
+        </section>
+
+        <section id="order-form">
+            <h2>Place Your Order</h2>
+            <form>
+                <br>
+                <hr><br>
+                <article>
+                    <label for="pizza">Pizza's: </label>
+                    <input type="number" id="pizza" min="0"">
+                    <br>
+                    <input type="checkbox">
+                    <label>Mayonnaise</label>
+                    <input type="checkbox">
+                    <label>Ketchup</label>
+                    <input type="checkbox">
+                    <label>Mustard</label>
+                    <br>
+                    <label>Comments: </label>
+                    <textarea></textarea>
+                </article>
+                <br>
+                <hr><br>
+                <article>
+                    <label for="burger">Burger's: </label>
+                    <input type="number" id="burger" min="0">
+                    <br>
+                    <input type="checkbox">
+                    <label>Mayonnaise</label>
+                    <input type="checkbox">
+                    <label>Ketchup</label>
+                    <input type="checkbox">
+                    <label>Mustard</label>
+                    <br>
+                    <label>Comments: </label>
+                    <textarea></textarea>
+                </article>
+                <br>
+                <hr><br>
+                <article>
+                    <label for="hotdog">Hot Dog's: </label>
+                    <input type="number" id="hotdog" min="0">
+                    <br>
+                    <input type="checkbox">
+                    <label>Mayonnaise</label>
+                    <input type="checkbox">
+                    <label>Ketchup</label>
+                    <input type="checkbox">
+                    <label>Mustard</label>
+                    <br>
+                    <label>Comments: </label>
+                    <textarea></textarea>
+                </article>
+                <br>
+                <hr><br>
+                <input type="submit" value="Go To Checkout">
+            </form>
+        </section>
+    </menu>
+
+    <footer>
+        <p>Made with love by Pacolo</p>
+    </footer>
+</body>
+
+</html>
